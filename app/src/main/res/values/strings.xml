@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">h¿HolaMundoAndroid</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Javi</string>
+    <string name="nav_header_subtitle">geovanni.javier.0@gmail.com</string>
+    <string name="nav_header_desc">Navegacion Principal</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Aceerca de</string>
+    <string name="menu_slideshow">Servicios</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="sin_internet">No se pudieron guardar tus pefiles :c Ya pagaste el internet?</string>
+</resources>

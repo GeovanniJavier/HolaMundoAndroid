@@ -23,6 +23,7 @@ class TareaGuardarPerfil(
         //1. Colecta la informacion de la interface de usuario U.I. y forma el objeto a
         //enviarse
         perfil.nombre = txtN?.text.toString()
+
         perfil.patrerno = txtP?.text.toString()
         perfil.edad = txtE?.text.toString().toInt()
 

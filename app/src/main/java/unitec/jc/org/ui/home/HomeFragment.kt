@@ -36,8 +36,11 @@ class HomeFragment : Fragment() {
         //Ese valor constante que aqui se genero como root nos apoyamos para
         //invocar nuestras componentes visuales e inyectarlas en el modelo
         var guardar = root.findViewById<Button>(R.id.guardar)
+
+
         //Previamente invocamos el evento (fincional) del boton y en el invocamos
         //los valores
+
         guardar.setOnClickListener(){
             var txtN = root.findViewById<TextInputEditText>(R.id.txtN)
             var txtP = root.findViewById<TextInputEditText>(R.id.txtP)

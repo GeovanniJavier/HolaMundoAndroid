@@ -10,8 +10,9 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+    //el compilador de android se llama Dalvik
 
-    // lo obtiene de la clase AppCompatActivity
+    //Este metodo lo obtiene de la clase AppCompatActivity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //El siguiente metodo que se llama setContentView
@@ -22,7 +23,6 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         boton1.setOnClickListener {
-
             //Navegaci[on para pasar de la activity MainActivity a la MenuActivity
             var i = Intent(this, MenuActivity::class.java)
             //Finalmente redireccionamos
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             // de vibracion de cel
             var v = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
             //El objeto v ya es de tipo Vibrator invocamos su metodo vibrate
-            v.vibrate(3000)
+           // v.vibrate(3000)
 
             // En kotlin no existen ya los datos primitivos o primarios
             //float, int, char, double, byte, short
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             //La clase Log sirve para accerder a esta ventana
             //La verdad que la amamos los developers en anroid es para depurar
             //El signo de pesos seguido de una variable se le llama interpolacion estatica de String
-            Log.v("CHORO", "El valor de z es $z y el de y es $y")
+            Log.i("CHORO", "El valor de z es $z y el de y es $y")
             //Tambien el signo de $ sirve para evaluar e interpolar expresiones de programacion
             Log.i("CHORO", "Una expresion evalua simple ${z+2}")
 

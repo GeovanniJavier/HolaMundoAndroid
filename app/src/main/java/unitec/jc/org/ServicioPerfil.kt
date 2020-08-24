@@ -27,6 +27,6 @@ interface ServicioPerfil {
     fun actualziar(@Body perfil:Perfil):Call<Estatus>
 
     //Borrar por ID
-    @DELETE("api/perfil")
+    @DELETE("api/perfil/{id}")
     fun borrar(@Path("id") id:String?):Call<Estatus>
 }

@@ -15,7 +15,7 @@
         android:layout_marginTop="67dp"
         android:layout_marginEnd="67dp"
         android:fontFamily="@font/arima_madurai_thin"
-        android:text="Bienvenido a mi APP"
+        android:text="Bienvenido Javi"
         android:textColor="@android:color/background_light"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
